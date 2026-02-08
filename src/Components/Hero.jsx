@@ -9,8 +9,8 @@ const Hero = () => {
       <section className="container min-vh-100 d-flex align-items-center pt-5">
         <div className="row w-100">
           <div className="col-lg-6">
-            <p className="text-primary mb-0 fw-bold">Hi, I'm Moses</p>
-            <h1 className="hero-title-top mb-0">Web Developer</h1>
+            <p className="text-primary mb-0 fw-bold">Hellooo, I'm Moses</p>
+            <h1 className="hero-title-top mb-0">A Web Developer</h1>
             <h1 className="hero-title-bottom text-secondary">& UI Designer</h1>
             
             <p className="col-lg-10 text-white mt-1 mb-3 lead">
