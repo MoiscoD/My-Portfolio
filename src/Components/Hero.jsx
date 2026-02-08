@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div>
   {/* HERO SECTION */}
-      <section className="container min-vh-100 d-flex align-items-center pt-3">
+      <section className="container min-vh-100 d-flex align-items-center pt-5">
         <div className="row w-100">
           <div className="col-lg-6">
             <p className="text-primary mb-0 fw-bold">Hi, I'm Moses</p>
