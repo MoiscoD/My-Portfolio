@@ -2,6 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Hero from './Components/Hero';
+import Project from './Components/Project';
 
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
     
 
 <Hero/>
+<Project/>
 
 
       
