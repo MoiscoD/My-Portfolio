@@ -1,6 +1,6 @@
 import React from 'react';
 
-const MyArsenal = () => {
+const Talent = () => {
   const skillsData = [
     {
       category: "Frontend",
@@ -54,4 +54,4 @@ const MyArsenal = () => {
   );
 };
 
-export default MyArsenal;
+export default Talent;

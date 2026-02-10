@@ -3,7 +3,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Hero from './Components/Hero';
 import Project from './Components/Project';
-
+import Skill from './Components/Skill';
+import Contact from './Components/Contact';
 
 function App() {
   return (
@@ -44,6 +45,9 @@ function App() {
 
 <Hero/>
 <Project/>
+<Skill/>
+<Contact/>
+
 
 
       

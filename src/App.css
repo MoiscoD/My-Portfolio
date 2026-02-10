@@ -116,3 +116,237 @@ body {
   box-shadow: 0 20px 50px rgba(5, 5, 5, 0.6), 0 6px 24px rgba(124, 58, 237, 0.08);
   object-fit: cover;
 }
+
+/* ===== RESPONSIVE MEDIA QUERIES ===== */
+
+/* Tablets and small devices (768px and below) */
+@media (max-width: 768px) {
+  body {
+    margin-top: 5vh;
+  }
+
+  /* Navbar adjustments */
+  .navbar {
+    padding: 1rem 0;
+  }
+
+  .nav-link {
+    font-size: 0.7rem;
+    letter-spacing: 0.5px;
+  }
+
+  .nav-icon {
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-left: 0.3rem;
+  }
+
+  /* Hero section typography */
+  .hero-title-top,
+  .hero-title-bottom {
+    font-size: calc(1.5rem + 3vw);
+  }
+
+  .hero-title-bottom {
+    margin-top: -5px;
+  }
+
+  /* Hero text content */
+  .hero-image {
+    margin-top: 2rem;
+    max-width: 280px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Cards */
+  .custom-card {
+    padding: 20px;
+    border-radius: 15px;
+  }
+
+  .skill-badge {
+    padding: 6px 12px;
+    font-size: 0.75rem;
+  }
+
+  /* Buttons */
+  .btn-work,
+  .btn-contact {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+}
+
+/* Mobile devices (576px and below) */
+@media (max-width: 576px) {
+  body {
+    margin-top: 0;
+  }
+
+  /* Navbar for mobile */
+  .navbar {
+    padding: 0.5rem 0;
+    position: relative;
+  }
+
+  .navbar .container {
+    padding: 0 1rem;
+  }
+
+  .navbar-nav {
+    gap: 1rem !important;
+    margin-right: 0 !important;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nav-link {
+    font-size: 0.65rem;
+    letter-spacing: 0.3px;
+  }
+
+  .nav-icon {
+    width: 1rem;
+    height: 1rem;
+    margin-left: 0.2rem;
+  }
+
+  /* Hero section */
+  .hero-title-top,
+  .hero-title-bottom {
+    font-size: calc(1.2rem + 2.5vw);
+    line-height: 1.1;
+  }
+
+  .hero-title-bottom {
+    margin-top: -3px;
+  }
+
+  /* Hero description text */
+  section.container > .row > .col-lg-6 p.lead {
+    font-size: 0.95rem;
+  }
+
+  /* Hero image mobile */
+  .hero-image {
+    margin-top: 1.5rem;
+    max-width: 100%;
+    max-width: 250px;
+    height: auto;
+  }
+
+  /* Buttons */
+  .btn-work,
+  .btn-contact {
+    padding: 8px 16px;
+    font-size: 0.85rem;
+    border-radius: 4px;
+  }
+
+  .d-flex.gap-3 {
+    gap: 0.75rem !important;
+    flex-wrap: wrap;
+  }
+
+  /* Cards */
+  .custom-card {
+    padding: 15px;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+  }
+
+  .skill-badge {
+    padding: 5px 10px;
+    font-size: 0.7rem;
+    border-radius: 6px;
+  }
+
+  /* Section titles */
+  h2.display-5 {
+    font-size: 1.8rem;
+  }
+
+  h3.h2 {
+    font-size: 1.3rem;
+  }
+
+  /* Project section adjustments */
+  .row.g-5 {
+    gap: 1.5rem !important;
+  }
+
+  .col-lg-7,
+  .col-lg-5 {
+    padding-left: 0 !important;
+  }
+
+  .ps-lg-5 {
+    padding-left: 0 !important;
+  }
+
+  .custom-card[style*="height: '350px'"] {
+    height: 250px !important;
+  }
+
+  /* Badge adjustments */
+  .badge {
+    padding: 0.5rem 0.8rem !important;
+    font-size: 0.7rem;
+    margin-bottom: 0.5rem;
+  }
+
+  /* Container padding */
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  /* Section padding */
+  section.container {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+}
+
+/* Extra small devices (360px and below) */
+@media (max-width: 360px) {
+  .hero-title-top,
+  .hero-title-bottom {
+    font-size: calc(1rem + 2vw);
+  }
+
+  .hero-image {
+    max-width: 90%;
+  }
+
+  .nav-link {
+    font-size: 0.6rem;
+  }
+
+  h2.display-5 {
+    font-size: 1.5rem;
+  }
+
+  h3.h2 {
+    font-size: 1.1rem;
+  }
+
+  .btn-work,
+  .btn-contact {
+    padding: 6px 12px;
+    font-size: 0.75rem;
+  }
+}
+
+/* Large screens (1024px and above) - optimization */
+@media (min-width: 1024px) {
+  .hero-image {
+    margin-top: 50vh;
+  }
+
+  .nav-link {
+    font-size: 0.8rem;
+  }
+}
