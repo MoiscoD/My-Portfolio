@@ -12,14 +12,14 @@ const Project = () => {
           <div className="col-lg-7">
             <div className="custom-card p-0 overflow-hidden" style={{height: '350px', backgroundColor: '#1a1a1a'}}>
                <div className="w-100 h-100 d-flex align-items-center justify-content-center text-secondary">
-                <a href="">  Dar Elmer's Store </a>
+                <a href="https://dar-elmer-s-store.vercel.app/">  Dar Elmer's Store </a>
                   
                </div>
             </div>
           </div>
         
           <div className="col-lg-5 ps-lg-5">
-            <h3 className="fw-bold h2">Dar Elmer's Store 
+            <h3 className="fw-bold h2"> <a href="https://dar-elmer-s-store.vercel.app/">Dar Elmer's Store </a>
               <p>(E-Commerce Dashboard)</p></h3>
             <p className="text-secondary my-4">
               A comprehensive analytics dashboard for online sales of mobile phones featuring real-time data visualization.
@@ -37,12 +37,12 @@ const Project = () => {
           <div className="col-lg-7">
             <div className="custom-card p-0 overflow-hidden" style={{height: '350px', backgroundColor: '#1a1a1a'}}>
                <div className="w-100 h-100 d-flex align-items-center justify-content-center text-secondary">
-                  Todo List
+                <a href="https://todo-list-phi-pied-41.vercel.app/">  Todo List </a>
                </div>
             </div>
           </div>
           <div className="col-lg-5 ps-lg-5">
-            <h3 className="fw-bold h2">To-do List Web App</h3>
+            <h3 className="fw-bold h2"><a href="https://todo-list-phi-pied-41.vercel.app/">To-do List Web App</a></h3>
             <p className="text-secondary my-4">
                Digital productivity tools designed to organize, prioritize, and track daily tasks and long-term goals to enhance efficiency and reduce mental load.
             </p>
@@ -58,12 +58,13 @@ const Project = () => {
           <div className="col-lg-7">
             <div className="custom-card p-0 overflow-hidden" style={{height: '350px', backgroundColor: '#1a1a1a'}}>
                <div className="w-100 h-100 d-flex align-items-center justify-content-center text-secondary">
-                  Project Preview 1
+                  <a href="https://todo-list-zg5q.vercel.app/">Currency Converter</a>
                </div>
             </div>
           </div>
           <div className="col-lg-5 ps-lg-5">
-            <h3 className="fw-bold h2">Currency Converter</h3>
+            <h3 className="fw-bold h2">
+              <a href="https://todo-list-zg5q.vercel.app/">Currency Converter</a></h3>
             <p className="text-secondary my-4">
                software tool, website, or application designed to instantly convert the value of one currency into another based on current, real-time, or historical exchange rates.
             </p>
@@ -80,7 +81,7 @@ const Project = () => {
           <div className="col-lg-7">
             <div className="custom-card p-0 overflow-hidden" style={{height: '350px', backgroundColor: '#1a1a1a'}}>
                <div className="w-100 h-100 d-flex align-items-center justify-content-center text-secondary">
-                  Project Preview 1
+                  <a href="">Management System</a>
                </div>
             </div>
           </div>
